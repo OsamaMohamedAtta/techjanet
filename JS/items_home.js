@@ -42,8 +42,8 @@ fetch('products.json')
                         <p class="name_product"><a href="#">${product.name}</a></p>
 
                         <div class="price">
-                            <p><span>AED ${product.price}</span></p>
-                            <p class="old_price">AED ${product.old_price}</p>
+                            <p><span>EGP ${product.price}</span></p>
+                            <p class="old_price">EGP ${product.old_price}</p>
                         </div>
 
                         <div class="icons">
@@ -71,7 +71,7 @@ fetch('products.json')
             const isInCart = cart.some(cartItem => cartItem.id === product.id)
 
 
-            const old_price_Pargrahp = product.old_price ? `<p class="old_price">AED ${product.old_price}</p>` : "";
+            const old_price_Pargrahp = product.old_price ? `<p class="old_price">EGP ${product.old_price}</p>` : "";
 
             const percent_disc_div = product.old_price ? `<span class="sale_present">%${Math.floor((product.old_price - product.price) / product.old_price * 100)}</span>` : "";
 
@@ -98,7 +98,7 @@ fetch('products.json')
                        <p class="name_product"><a href="#">${product.name}</a></p>
 
                        <div class="price">
-                           <p><span>AED ${product.price}</span></p>
+                           <p><span>EGP ${product.price}</span></p>
                            ${old_price_Pargrahp}
                        </div>
 
@@ -126,7 +126,7 @@ fetch('products.json')
 
             const isInCart = cart.some(cartItem => cartItem.id === product.id)
 
-            const old_price_Pargrahp = product.old_price ? `<p class="old_price">AED ${product.old_price}</p>` : "";
+            const old_price_Pargrahp = product.old_price ? `<p class="old_price">EGP ${product.old_price}</p>` : "";
 
             const percent_disc_div = product.old_price ? `<span class="sale_present">%${Math.floor((product.old_price - product.price) / product.old_price * 100)}</span>` : "";
 
@@ -153,7 +153,7 @@ fetch('products.json')
                        <p class="name_product"><a href="#">${product.name}</a></p>
 
                        <div class="price">
-                           <p><span>AED ${product.price}</span></p>
+                           <p><span>EGP ${product.price}</span></p>
                            ${old_price_Pargrahp}
                        </div>
 
@@ -181,7 +181,7 @@ fetch('products.json')
 
             const isInCart = cart.some(cartItem => cartItem.id === product.id)
 
-            const old_price_Pargrahp = product.old_price ? `<p class="old_price">AED ${product.old_price}</p>` : "";
+            const old_price_Pargrahp = product.old_price ? `<p class="old_price">EGP ${product.old_price}</p>` : "";
 
             const percent_disc_div = product.old_price ? `<span class="sale_present">%${Math.floor((product.old_price - product.price) / product.old_price * 100)}</span>` : "";
 
@@ -208,7 +208,7 @@ fetch('products.json')
                        <p class="name_product"><a href="#">${product.name}</a></p>
 
                        <div class="price">
-                           <p><span>AED ${product.price}</span></p>
+                           <p><span>EGP ${product.price}</span></p>
                            ${old_price_Pargrahp}
                        </div>
 

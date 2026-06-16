@@ -82,7 +82,7 @@ function updateCart() {
                 <img src="${item.img}" alt="">
                 <div class="content">
                     <h4>${item.name}</h4>
-                    <p class="price_cart">AED ${total_Price_item}</p>
+                    <p class="price_cart">EGP ${total_Price_item}</p>
                     <div class="quantity_control">
                         <button class="decrease_quantity" data-index=${index}>-</button>
                         <span class="quantity">${item.quantity}</span>
@@ -104,7 +104,7 @@ function updateCart() {
 
     const count_item_header = document.querySelector('.count_item_header')
     
-    price_cart_total.innerHTML = `AED ${total_Price}`
+    price_cart_total.innerHTML = `EGP ${total_Price}`
 
     count_item_cart.innerHTML = total_count
 

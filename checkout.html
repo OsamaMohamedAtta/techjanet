@@ -7,7 +7,7 @@
     <title>Techjanet | Online Store</title>
 
 
-    <!-- <link rel="icon" href="img/icon.png"> -->
+    <link rel="icon" href="img/icon.png">
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -160,20 +160,20 @@
                     <div class="bottom_summary">
                         <div class="shop_table">
                             <p>Subtotal :</p>
-                            <span class="subtotal_checkout">AED 0.00</span>
+                            <span class="subtotal_checkout">EGP 0.00</span>
                         </div>
 
 
                         <div class="shop_table">
                             <p>Shipping :</p>
-                            <span class="">AED 20.00</span>
+                            <span class="">EGP 20.00</span>
                         </div>
 
 
 
                         <div class="shop_table">
                             <p>total :</p>
-                            <span class="total_checkout">AED 0.00</span>
+                            <span class="total_checkout">EGP 0.00</span>
                         </div>
 
                     </div>
@@ -315,7 +315,7 @@
 
                                 <div class="content">
                                     <h4>${item.name}</h4>
-                                    <p class="price_cart">AED ${total_Price_item}</p>
+                                    <p class="price_cart">EGP ${total_Price_item}</p>
                                     <div class="quantity_control">
                                         <button class="decrease_quantity" data-index=${index}>-</button>
                                         <span class="quantity">${item.quantity}</span>
@@ -337,9 +337,9 @@
 
             const count_item_header = document.querySelector('.count_item_header')
 
-            subtotal_checkout.innerHTML = `AED ${total_Price}`
+            subtotal_checkout.innerHTML = `EGP ${total_Price}`
 
-            price_cart_total.innerHTML = `AED ${total_Price + 20}`
+            price_cart_total.innerHTML = `EGP ${total_Price + 20}`
 
             count_item_cart.innerHTML = total_count
 
